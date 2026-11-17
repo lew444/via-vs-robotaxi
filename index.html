@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VIA vs Austin Robotaxi — Full Cost Comparison</title>
+<style>
+  :root {
+    --bg: #f8fafc;
+    --card: #ffffff;
+    --text: #1e293b;
+    --muted: #64748b;
+    --accent: #1e40af;
+    --border: #e2e8f0;
+    --header: #0f172a;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+    margin: 0;
+    padding: 24px 16px 48px;
+  }
+  .container { max-width: 860px; margin: 0 auto; }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; color: var(--header); }
+  .subtitle { color: var(--muted); font-size: 0.95rem; margin-bottom: 24px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+  }
+  h2 { font-size: 1.15rem; margin: 0 0 12px; color: var(--accent); }
+  h3 { font-size: 1rem; margin: 16px 0 8px; }
+  p { margin: 0 0 10px; }
+  ul { margin: 8px 0 0; padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.88rem;
+    margin: 12px 0;
+  }
+  th, td {
+    border: 1px solid var(--border);
+    padding: 8px 10px;
+    text-align: left;
+    vertical-align: top;
+  }
+  th { background: #1e3a5f; color: white; font-weight: 600; }
+  tr:nth-child(even) { background: #f8fafc; }
+  .note { font-size: 0.82rem; color: var(--muted); margin-top: 8px; }
+  .footer { font-size: 0.8rem; color: var(--muted); text-align: center; margin-top: 32px; }
+  .highlight { background: #eff6ff; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>VIA vs Austin Robotaxi / Uber</h1>
+  <div class="subtitle">Full cost-per-mile comparison · November 2026</div>
+
+  <div class="card">
+    <h2>What this shows</h2>
+    <p>VIA’s entire budget (operating + amortization + capital) allocated over the vehicle miles and boardings required to carry passengers, compared with the prices riders actually pay for robotaxi and Uber in Austin.</p>
+    <p>Capital and overhead are included because they are part of the resources needed to put buses on the street and people on them.</p>
+  </div>
+
+  <div class="card">
+    <h2>VIA key figures (San Antonio)</h2>
+    <ul>
+      <li><strong>FY2025 actual:</strong> 31.2 million passengers · 32.8 million vehicle miles · 2.4 million hours</li>
+      <li><strong>NTD 2024:</strong> Operating expenses $262.6M · Vehicle revenue miles 32.1M · Passenger-miles 152M · Unlinked trips 30.7M</li>
+      <li><strong>FY2026 budget:</strong> Operating $339M (includes ~$22M amortization) · Capital $235M · Combined ~$574M</li>
+      <li><strong>Average trip length:</strong> ~5 passenger-miles per boarding</li>
+      <li><strong>Average bus load:</strong> ~6.7 passengers on board (all-day average)</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>VIA fully allocated costs</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Metric</th>
+          <th>Operating only</th>
+          <th>Op + amortization</th>
+          <th>Op + capital (FY26)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Cost per vehicle mile</td>
+          <td>~$8.20–9.10</td>
+          <td>~$10.30</td>
+          <td>~$17.50</td>
+        </tr>
+        <tr>
+          <td>Cost per passenger-mile</td>
+          <td>~$1.73</td>
+          <td>~$2.15</td>
+          <td>~$3.70</td>
+        </tr>
+        <tr>
+          <td>Cost per boarding</td>
+          <td>~$8.55</td>
+          <td>~$10.90</td>
+          <td>~$18.50</td>
+        </tr>
+        <tr class="highlight">
+          <td><strong>Implied cost of a 5-mile trip</strong></td>
+          <td><strong>~$8.65</strong></td>
+          <td><strong>~$10.75</strong></td>
+          <td><strong>~$18.50</strong></td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="note">Capital is elevated in FY2025–26 because of the Green and Silver Advanced Rapid Transit lines. A lower-capital year (~$130M) would bring the fully loaded cost closer to ~$14 per vehicle mile and ~$3 per passenger-mile.</p>
+  </div>
+
+  <div class="card">
+    <h2>Austin robotaxi & Uber fares (mid-November 2026)</h2>
+    <ul>
+      <li><strong>Tesla Robotaxi</strong> (tracker, 1,660 rides): median $13.26 · <strong>$3.78 per mile</strong> · avg trip 4.6 mi<br>
+        Reported formula: $3 base + $1.40/mile</li>
+      <li><strong>Waymo</strong> (via Uber match only): median $16.96 · <strong>$2.88 per mile</strong> (small sample)<br>
+        Priced at the Uber product rate; no separate Austin rate card. Own app expected ~January 2028.</li>
+      <li><strong>UberX:</strong> dynamic. Typical non-surge midday ~$18–26 for 5 miles (~$3.50–5.20/mile). Recent same-route checks often show UberX undercutting Tesla by $2–4 on short trips.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Side-by-side: cost of a ~5-mile trip</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Provider</th>
+          <th>Effective $ / mile</th>
+          <th>Cost for ~5-mile trip</th>
+          <th>What it reflects</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>VIA – Operating only</td>
+          <td>~$1.73 / pass-mi</td>
+          <td>~$8.65</td>
+          <td>Day-to-day operations</td>
+        </tr>
+        <tr>
+          <td>VIA – Op + amortization</td>
+          <td>~$2.15 / pass-mi</td>
+          <td>~$10.75</td>
+          <td>Plus lease & software amortization</td>
+        </tr>
+        <tr class="highlight">
+          <td><strong>VIA – Op + capital (FY26)</strong></td>
+          <td><strong>~$3.70 / pass-mi</strong></td>
+          <td><strong>~$18.50</strong></td>
+          <td><strong>Full budget to sustain & expand service</strong></td>
+        </tr>
+        <tr>
+          <td>Tesla Robotaxi</td>
+          <td>~$3.78</td>
+          <td>~$13–17</td>
+          <td>Rider-paid fare (median)</td>
+        </tr>
+        <tr>
+          <td>Waymo (Austin)</td>
+          <td>~$2.88</td>
+          <td>~$14–18</td>
+          <td>Rider-paid (Uber-matched)</td>
+        </tr>
+        <tr>
+          <td>UberX</td>
+          <td>~$3.50–5.20</td>
+          <td>~$18–26</td>
+          <td>Rider-paid, dynamic</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>Takeaways</h2>
+    <ul>
+      <li>On pure operating cost per passenger-mile, VIA is lower (~$1.73) because one bus mile serves multiple riders.</li>
+      <li>Once the full budget required to keep the system running and growing is allocated, a typical 5-mile VIA trip costs roughly $10–18 — in the same range as current Austin robotaxi and Uber fares.</li>
+      <li>Robotaxi and Uber prices are what riders actually pay for door-to-door, on-demand service. VIA fares recover only a small fraction of total cost; the rest comes from sales tax and grants.</li>
+      <li>Average bus load of ~6–7 people means most capacity is unused on an all-day basis. Higher utilization would lower VIA’s cost per passenger further.</li>
+      <li>Current capital spending is high due to the rapid-transit lines. In a lower-capital year the fully loaded figure would be closer to the operating-plus-amortization number.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Caveats</h2>
+    <ul>
+      <li>Miles and boardings are system-wide averages; individual routes vary.</li>
+      <li>Allocating one year’s full capital budget is a high-end view of the resources required to sustain and expand the network (capital is multi-year and partly grant-funded).</li>
+      <li>Austin robotaxi prices are dynamic snapshots from trackers and rider reports, not official rate cards.</li>
+      <li>VIA and Austin are different cities — this is a cost-structure comparison, not a direct service match.</li>
+      <li>Robotaxis currently serve a smaller geography and different demand pattern than a full fixed-route network.</li>
+    </ul>
+  </div>
+
+  <div class="footer">
+    Sources: VIA FY2025 ACFR & FY2026 Business Plan · FTA NTD 2024 · Robotaxi Tracker · fareestimate.com · Gridwise Q2 2026 · recent X same-route comparisons<br>
+    Prepared November 17, 2026. Full-budget allocation reflects the total resources required to deliver the service that carries the passengers.
+  </div>
+</div>
+</body>
+</html>
